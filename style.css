@@ -9,9 +9,6 @@
 body{
     height: 100vh;
 }
-main{
-    background-color: rbg(135, 182, 139);
-}
 footer{
     align-items: center;
     text-align: center;
@@ -86,6 +83,9 @@ button:hover, form .btn-enviar input:hover{
 
 
 /* TOPO */
+main{
+    background-color: rgb(135, 182, 139);
+}
 section.topo-do.site{
     padding: 100px 4%;
 }
@@ -118,12 +118,11 @@ section.topo-do.site .flex{
     margin-left: 10px;
     margin-right: 100px;
     margin-top: 40px;
-    margin-bottom: 400px;
+    margin-bottom: 150px;
 }
 .topo-do-site .btn-contato button{
     margin-left: 100px;
     border-radius: 10px;
-    margin-bottom: 400px;
     background-color: rgb(192, 101, 116);
     color: white;
 }
@@ -138,8 +137,7 @@ section.especialidades .interface .titulo span{
 }
 section.especialidades{
     padding: 40px 4%;
-    background-color: rgb(135, 182, 139);
-    margin-bottom: 400px;
+    background-color: rgb(135, 182, 139); 
 }
 section.especialidades .flex{
     gap: 40px;
@@ -269,7 +267,6 @@ section.curiosidades iframe{
 /* Contato */
 section.formulario{
     padding: 80px 4%;
-    margin-bottom: 400px;
 }
 form{
     max-width: 500px;
