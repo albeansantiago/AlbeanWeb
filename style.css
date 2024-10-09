@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Teko", sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+footer{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(135, 182, 139);
+}
+footer p{
+    color: white;
+    font-size: 12px;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+h2.titulo{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+h2.titulo span{
+    color: rgb(192, 101, 116);
+}
+
+/* HEADER */
+header{
+    padding: 10px 4%;
+    background-color: rgb(135, 182, 139);
+
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .interface .nome a h1{
+    font-size: 40px;
+}
+header a{
+    color: rgb(240, 235, 235);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+header a:hover{
+    color: rgb(192, 101, 116);
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 20px;
+}
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px rgba(192, 101, 116, 0.404);
+    transform: scale(1.05);
+}
+
+
+/* TOPO */
+main{
+    background-color: rgb(135, 182, 139);
+}
+section.topo-do.site{
+    padding: 100px 4%;
+}
+section.topo-do.site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site .txt-topo-site h1{
+    color: white;
+    font-size: 42px;
+    line-height: 40px;
+    margin-top: 140px;
+    margin-left: 100px;
+}
+.topo-do-site .txt-topo-site h1 span{
+    color: rgb(192, 101, 116);
+}
+.topo-do-site .txt-topo-site p{
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+    margin: 40px 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 35px;
+}
+.topo-do-site .img-topo-site img{
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+.topo-do-site .btn-contato button{
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: rgb(192, 101, 116);
+    color: white;
+}
+header.btn-contato button{
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+/* ESPECIALIDADES */
+section.especialidades .interface .titulo span{
+    color: rgb(192, 101, 116);
+}
+section.especialidades{
+    padding: 40px 4%;
+    background-color: rgb(135, 182, 139); 
+}
+section.especialidades .flex{
+    gap: 40px;
+}
+.especialidades .especialidades-box, .projetos .pjt-box{
+    color: white;
+    margin-top: 20px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 20px;
+    transition: .2s;
+    margin-bottom: 100px;
+}
+.especialidades .especialidades-box a{
+    text-decoration: none;
+}
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgb(192, 101, 116);
+}
+.especialidades .especialidades-box span{
+    color: rgb(192, 101, 116);
+}
+.especialidades .especialidades-box h2{
+    color: white;
+}
+.especialidades .especialidades-box i, .projetos .pjt-box i{
+    font-size: 70px;
+    color: rgb(192, 101, 116);
+}
+.especialidades .especialidades-box h3, .projetos .pjt-box h3{
+    font-size: 35px;
+    margin: 15px 0;
+}
+.especialidades .especialidades-box p, .projetos .pjt-box p{
+    font-size: 22px;
+    text-align: justify;
+}
+
+/* SOBRE */
+
+section.sobre{
+    padding: 40px 4%;
+    background-color: rgb(135, 182, 139);
+}
+section.sobre img{
+    height: 500px;
+    width: 450px;
+    border-radius: 20px;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.sobre .txt-sobre{
+    color: white;
+}
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.sobre .txt-sobre h2 span{
+    color: rgb(192, 101, 116);
+    display: block;
+}
+.sobre .txt-sobre p{
+    font-size: 22px;
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobre .txt-sobre .btn-social button{
+    width: 50px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(192, 101, 116);
+    cursor: pointer;
+    transition: .2s;
+    margin: 0 3px;
+}
+section.curiosidades .titulo{
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+section.curiosidades .titulo h3{
+    font-size: 30px;
+}
+section.curiosidades .titulo p{
+    font-size: 22px;
+    color: rgb(192, 101, 116);
+}
+section.curiosidades .titulo span{
+    color: rgb(192, 101, 116);
+}
+section.curiosidades .spotify, section.curiosidades .pet{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+section.curiosidades .pet p{
+    font-size: 22px;
+    color: rgb(192, 101, 116);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section.curiosidades .imagem{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+section.curiosidades .imagem img{
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+section.curiosidades iframe{
+    max-width: 600px;
+    max-height: 400px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+/* Contato */
+section.formulario{
+    padding: 80px 4%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+form.interface .titulo span{
+    color: rgb(192, 101, 116);
+}
+form input, form textarea{
+    width: 100%;
+    background-color: white;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: rgb(192, 101, 116);
+    font-size: 18px;
+}
+form textarea{
+    resize: none;
+    max-height: 180px;
+}
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+form .btn-enviar input{
+    width: 120px;
+    background-color: rgb(192, 101, 116);
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+}
+/* PROJETOS */
+section.projetos .interface .titulo span{
+    color: rgb(192, 101, 116);
+}
+section.projetos{
+    padding: 40px 4%;
+    background-color: rgb(135, 182, 139); 
+}
+section.projetos .flex{
+    gap: 40px;
+}
+.projetos .pjt-box{
+    color: white;
+    margin-top: 20px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 20px;
+    transition: .2s;
+    margin-bottom: 50px;
+}
+.projetos .pjt-box a{
+    text-decoration: none;
+}
+.projetos .pjt-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgb(192, 101, 116);
+}
+.projetos .pjt-box span{
+    color: rgb(192, 101, 116);
+}
+.projetos .pjt-box h2{
+    color: white;
+}
+.projetos .pjt-box p{
+    color:rgb(192, 101, 116);
+    font-size: 22px;
+}
