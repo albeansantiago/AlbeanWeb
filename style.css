@@ -17,11 +17,13 @@ footer{
 footer p{
     color: white;
     font-size: 12px;
-    margin-top: 500px;
 }
 .interface{
     max-width: 1280px;
     margin: 0 auto;
+    margin-botton: 300px;
+    margin-top: 150px;
+    background-color: rgb(135, 182, 139);
 }
 .flex{
     display: flex;
