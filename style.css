@@ -9,6 +9,9 @@
 body{
     height: 100vh;
 }
+main{
+    background-color:rbg(135, 182, 139);
+}
 footer{
     align-items: center;
     text-align: center;
