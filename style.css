@@ -8,6 +8,7 @@
 
 body{
     height: 100vh;
+     background-color: rbg(135, 182, 139);
 }
 footer{
     align-items: center;
