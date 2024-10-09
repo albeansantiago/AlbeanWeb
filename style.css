@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Teko", sans-serif;
-    backgraund-color: rbg(135, 182, 139);
+    background-color: rbg(135, 182, 139);
 }
 
 body{
@@ -83,9 +83,6 @@ button:hover, form .btn-enviar input:hover{
 
 
 /* TOPO */
-main{
-    background-color: rgb(135, 182, 139);
-}
 section.topo-do.site{
     padding: 100px 4%;
 }
