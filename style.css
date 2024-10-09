@@ -18,6 +18,12 @@ footer p{
     color: white;
     font-size: 12px;
 }
+.interface{
+    max-weigth: 1280px;
+    margin-botton: 300px;
+    margin-top: 150px;
+    background-color: rgb(135, 182, 139);
+}
 .flex{
     display: flex;
 }
@@ -79,12 +85,8 @@ button:hover, form .btn-enviar input:hover{
 
 
 /* TOPO */
-main.section .interface{
-    max-width: 1280px;
-    margin: 0 auto;
-    margin-botton: 300px;
-    margin-top: 150px;
-    background-color: rgb(135, 182, 139);
+main{
+    background-color: rbg(135, 182, 139);
 }
 section.topo-do.site{
     padding: 100px 4%;
