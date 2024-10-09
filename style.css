@@ -3,11 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Teko", sans-serif;
+    background-color: rbg(135, 182, 139);
 }
 
 body{
-    height: 1000vh;
-    background-color: rbg(135, 182, 139);
+    height: 100vh;
 }
 footer{
     align-items: center;
@@ -115,11 +115,12 @@ section.topo-do.site .flex{
     margin-left: 10px;
     margin-right: 100px;
     margin-top: 40px;
-    margin-bottom: 150px;
+    margin-bottom: 400px;
 }
 .topo-do-site .btn-contato button{
     margin-left: 100px;
     border-radius: 10px;
+    margin-bottom: 400px;
     background-color: rgb(192, 101, 116);
     color: white;
 }
@@ -134,7 +135,8 @@ section.especialidades .interface .titulo span{
 }
 section.especialidades{
     padding: 40px 4%;
-    background-color: rgb(135, 182, 139); 
+    background-color: rgb(135, 182, 139);
+    margin-bottom: 400px;
 }
 section.especialidades .flex{
     gap: 40px;
@@ -264,6 +266,7 @@ section.curiosidades iframe{
 /* Contato */
 section.formulario{
     padding: 80px 4%;
+    margin-bottom: 400px;
 }
 form{
     max-width: 500px;
