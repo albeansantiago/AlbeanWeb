@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Teko", sans-serif;
-    background-color: rbg(135, 182, 139);
+    background-color: rgb(135, 182, 139);
 }
 
 body{
@@ -12,7 +12,6 @@ body{
 footer{
     align-items: center;
     text-align: center;
-    background-color: rgb(135, 182, 139);
 }
 footer p{
     color: white;
@@ -22,7 +21,6 @@ footer p{
     max-weigth: 1280px;
     margin-botton: 300px;
     margin-top: 150px;
-    background-color: rgb(135, 182, 139);
 }
 .flex{
     display: flex;
@@ -49,8 +47,6 @@ h2.titulo span{
 /* HEADER */
 header{
     padding: 10px 4%;
-    background-color: rgb(135, 182, 139);
-
 }
 header > .interface{
     display: flex;
@@ -85,9 +81,6 @@ button:hover, form .btn-enviar input:hover{
 
 
 /* TOPO */
-main{
-    background-color: rbg(135, 182, 139);
-}
 section.topo-do.site{
     padding: 100px 4%;
 }
@@ -138,8 +131,7 @@ section.especialidades .interface .titulo span{
     color: rgb(192, 101, 116);
 }
 section.especialidades{
-    padding: 40px 4%;
-    background-color: rgb(135, 182, 139); 
+    padding: 40px 4%; 
 }
 section.especialidades .flex{
     gap: 40px;
@@ -182,7 +174,6 @@ section.especialidades .flex{
 
 section.sobre{
     padding: 40px 4%;
-    background-color: rgb(135, 182, 139);
 }
 section.sobre img{
     height: 500px;
@@ -312,8 +303,7 @@ section.projetos .interface .titulo span{
     color: rgb(192, 101, 116);
 }
 section.projetos{
-    padding: 40px 4%;
-    background-color: rgb(135, 182, 139); 
+    padding: 40px 4%; 
 }
 section.projetos .flex{
     gap: 40px;
